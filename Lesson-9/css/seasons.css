@@ -1,0 +1,94 @@
+.seasons-page{
+    text-align: center;
+}
+.seasons-page__title{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+    margin-bottom: 54px;
+}
+.seasons-page__subtitle{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+    margin-bottom: 30px;
+}
+.seasons-button{
+  font-family: "Roboto";
+  color: #FFFFFF;
+  background-color: #212A2F;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 17px 0 15px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  min-width: 180px;
+  border: none;
+  border: 2px solid #212A2F;
+  border-radius: 2px;
+  text-transform: uppercase;
+  margin-bottom: 119px;
+  cursor: pointer;
+}
+.seasons-button:not(:last-child){
+    margin-right: 24px;
+}
+.seasons-shop__title{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+    margin-bottom: 24px;
+}
+.seasons-shop-list{
+    display: flex;
+    justify-content: space-between;
+}
+.seasons-shop-list-block{
+    
+    
+}
+.seasons-shop-list-block__img{
+    max-width: 396px;
+    margin-bottom: 17px;
+}
+.seasons-shop-list-block__img img{
+    width: 100%;
+}
+.seasons-shop-list-block__title{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+    margin-bottom: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    /* max-width: 170px; */
+}
+.seasons-shop-list-block__description{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+    padding-left: 17px;
+    padding-right: 17px;
+    max-width: 357px;
+    max-height: 48px;  
+}
