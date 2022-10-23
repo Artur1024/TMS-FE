@@ -1,0 +1,120 @@
+.repeating-section {
+  padding: 52px 0;
+}
+.seasons-page {
+  text-align: center;
+}
+.seasons-page__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+  margin-bottom: 33px;
+}
+.seasons-page__subtitle {
+  text-align: center;
+  margin: 26px auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+  margin-bottom: 30px;
+  max-width: 645px;
+}
+.repeating-button {
+  margin-bottom: 119px;
+}
+.seasons-button-see {
+  font-family: "Roboto";
+  color: #ffffff;
+  background-color: #212a2f;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 17px 0 15px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  min-width: 384px;
+  border: none;
+  border: 2px solid #212a2f;
+  border-radius: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.seasons-button {
+  font-family: "Roboto";
+  color: #ffffff;
+  background-color: #212a2f;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 17px 0 15px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  min-width: 180px;
+  border: none;
+  border: 2px solid #212a2f;
+  border-radius: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.seasons-button:not(:last-child) {
+  margin-right: 24px;
+}
+.seasons-shop__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+  margin-bottom: 24px;
+}
+.seasons-shop-list {
+  display: flex;
+  justify-content: space-between;
+}
+.seasons-shop-list {
+  display: flex;
+  /* flex-wrap: wrap;
+    gap: 20px; */
+}
+.seasons-shop-list-block {
+  width: calc((100% - 24px) / 3);
+}
+.seasons-shop-list-block__img {
+  margin-bottom: 17px;
+}
+.seasons-shop-list-block__img img {
+  width: 100%;
+}
+.seasons-shop-list-block__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+  margin-bottom: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
+  /* max-width: 170px; */
+}
+.seasons-shop-list-block__description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+  padding-left: 17px;
+  padding-right: 17px;
+  max-width: 357px;
+  max-height: 48px;
+}
