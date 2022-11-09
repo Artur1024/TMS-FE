@@ -1,0 +1,68 @@
+.people-list {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.people-card {
+  max-width: 270px;
+  margin-top: 114px;
+}
+.people-card__img img {
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+  object-fit: cover;
+}
+.people-card-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #2d3033;
+  margin-top: 25px;
+  @media (max-width: 1024px) {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+.people-card-title-job {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ff4343;
+  margin-top: 15px;
+  @media (max-width: 1024px) {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+.people-card__description {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #6c7279;
+  margin-top: 15px;
+  @media (max-width: 1024px) {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+.people-card-contact {
+  display: flex;
+  margin-top: 25px;
+}
+.people-card-contact__icon {
+  max-width: 39px;
+  max-height: 39px;
+  margin-right: 7px;
+}
